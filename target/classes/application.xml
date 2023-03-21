@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="Role1" class="DISetterInjection.Roles">
+	<property name="Charactername" value="Aadil"></property>
+	<property name="Responsibility" value="ceo"></property>
+</bean>
+<bean id="Role2" class="DISetterInjection.Roles">
+	<property name="Charactername" value="Aadil"></property>
+	<property name="Responsibility" value="Employee"></property>
+</bean>
+<bean id="Role3" class="DISetterInjection.Roles">
+	<property name="Charactername" value="Aadil"></property>
+	<property name="Responsibility" value="Shopkeeper"></property>
+</bean>
+
+</beans>
